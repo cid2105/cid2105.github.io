@@ -108,7 +108,7 @@ $(function() {
     $(function(){
 
         $("#typed").typed({
-            strings: ["A <span>multi-disciplinary</span> designer", "<span>WP Theme</span> Developer.", "More than <span>11 Year's</span> Experience."],
+            strings: ["A <span>multi-disciplinary</span> Engineer", "<span>Builder</span> and an innovator.", "More than <span> 5 Year's</span> Experience."],
             typeSpeed: 80,
             backDelay: 500,
             loop: true,
