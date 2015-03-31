@@ -294,8 +294,9 @@ window.location.href = name;
 		.closest('.control-group').removeClass('error').addClass('success');
 		},
 		submitHandler: function(form) {
+						var email_file = $("#contact_form").attr("action");
 						// do other stuff for a valid form
-						$.post('contact-general-form.php', $("#contact_form").serialize(), function(data) { // action file is here 
+						$.post(email_file, $("#contact_form").serialize(), function(data) { // action file is here 
 							$('#contact_form').html(data);
 						});
 					}
