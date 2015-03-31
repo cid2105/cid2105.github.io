@@ -1,4 +1,6 @@
+<?php
 require 'vendor/autoload.php';
+
 $to = "cole.ian.diamond@gmail.com";
 $from = $_POST['email'];
 $subject = "[colediamond.com] Message from {$_POST['name']} ({$from})"
@@ -13,3 +15,4 @@ $message->addTo($to)->
           setText($text)->
           setHtml($text);
 $response = $sendgrid->send($message);
+?>
