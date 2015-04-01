@@ -108,7 +108,7 @@ $(function() {
     $(function(){
 
         $("#typed").typed({
-            strings: ["I ride <span>elephants</span> and <span> make </span> things", "I love <span> Machine Learning </span>", "<span> Inventor </span> and Data Scientist"],
+            strings: ["I ride <span>elephants</span> and <span> make </span> things", "I love <span> Machine Learning </span>", "and <span>tinkering</span> with electronics"],
             typeSpeed: 80,
             backDelay: 500,
             loop: true,
