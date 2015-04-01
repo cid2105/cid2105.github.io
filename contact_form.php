@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 $to = "cole.ian.diamond@gmail.com";
 $from = $_POST['email'];
-$subject = "[colediamond.com] Message from {$_POST['name']} ({$from})"
+$subject = "[colediamond.com] Message from {$_POST['name']} ({$from})";
 $text = $_POST['message'];
 
 $sendgrid = new SendGrid(get_env('SENDGRID_USERNAME'), get_env('SENDGRID_PASSWORD'));
