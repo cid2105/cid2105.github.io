@@ -103,8 +103,13 @@ jQuery(document).ready(function($){
 // on click navigation 
 /*********************************************************************************/
 	$('.main-nav a.nav-link,a.nav-link').click(function () {
-		
+	
 	var name = $(this).attr('href');
+
+	if($(this).attr('projectlink')){
+		window.open(name);
+		return false;
+	}
 	if(name!="#")  { // if navigation not equalt to "#"
 	
 	if(name=="#home"){
@@ -125,15 +130,15 @@ jQuery(document).ready(function($){
 //	scrollto start
 	$('#wrapper').scrollTo($(this).attr('href'), horizontal_scroll_speed, {easing:'easeInOutExpo', axis:'x', onAfter:function(){ // scrollto callback  function 
 	
-	if(name=="#home"){ // for home page animation 
-	Homepage_Animation();
-	$( "a[href='#home']" ).addClass('selected');
-	}
-	else { // sub page animation
-	if ( $('#header').is(':hidden')){
-	Subpage_animation();
-	}
-	} // else close
+		if(name=="#home"){ // for home page animation 
+			Homepage_Animation();
+			$( "a[href='#home']" ).addClass('selected');
+		}
+		else { // sub page animation
+			if ( $('#header').is(':hidden')){
+				Subpage_animation();
+			}
+		} // else close
 	
 	} // scrollto callback function close
 	

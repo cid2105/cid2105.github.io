@@ -676,28 +676,13 @@
                             <div class="pad_top30">
                             <div class="col-md-6 mar_bot30">
                             	<img src="assets/img/gallery/fingerprint.png" alt="" class="img-responsive img_width"/>                            </div>
-                             <div class="col-md-6 project_content">
-                            <h5>Project Description</h5>
+                            <div class="col-md-6 project_content">
+                                <h5>Project Description</h5>
                                 <p class="pad_top13">
-					"The handiest way to pay." I coupled a fingerprint reader with an arduino to map fingerprints to credit card numbers. The result was a fast, and more secure means of processing payments. My fingerprint credit card reader uses secure payment processing through the Stripe API. 				</p>
-                                <div class="project_details">
-                            	<h5>Project Details</h5>
-                                <div class="clearfix pad_top13">	
-								
-								<div class="pinfo clearfix">
-									<span class="input-box">Date </span>
-									<span class="pright">15th December 2013</span>
-								</div>
-								<div class="pinfo clearfix">
-									<span class="input-box">Categories </span>
-									<span class="pright">Brochures</span>
-								</div>
-								<div class="pinfo clearfix">
-									<span class="input-box">Client </span>
-									<span class="pright">John Doe</span>
-								</div>
-									
-                                </div>
+                					"The handiest way to pay." I coupled a fingerprint reader with an arduino to map fingerprints to credit card numbers. The result was a fast, and more secure means of processing payments. My fingerprint credit card reader uses secure payment processing through the Stripe API. 			
+                                </p>
+                                <div class="clearfix pad_top10">
+                                    <a href="http://www.youtube.com/watch?v=Mx68w5JVB4g" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
                                 </div>
                             </div>   
                             </div>
@@ -742,6 +727,10 @@
                                 <p class="pad_top13">
 					The goal was to identify the emotionality of a document. I used ensemble classification methods to bucketize tfidf-vectorized documents into six categories:  ‘joy’, ‘fear’, ‘sadness’, ‘anger’, ‘shame’ and ‘disgust’. The training text from the ISEAR databank was normalized with porter stemming, and stop words were removed. To categorize the query text, I trained a random forest of 100 nodes with bootstrap sampling and used gini impurity to measure split quality. I then extended the model to normalize hyponyms of emotional words to a common class and to allow for exclamation points and question marks. If the probability of the predicted emotion is less than a certain threshold, the text is classified as ‘neutral.’
                                 </p>
+
+                                <div class="clearfix pad_top10">
+                                    <a href="http://emotion-classification.herokuapp.com" class="btn btn-3 btn-3e" target="_blank" projectlink>Live Demo</a>
+                                </div>
 
                                 </div>   
                             </div>
@@ -789,6 +778,10 @@
 					After having locked myself out several times, I decided to take matters into my own hands. I can't tell you how cool I felt after I rigged my dorm room door to unlock itself with a text. To achieve this, I used a networked arduino to programmatically control a servo to lock and unlock my door. The arduino continuously pinged a website to check for the 'unlock' flag. An external server set the 'unlock' flag to true when an incoming text message contained a correct, secret password. After the servo unlocked the door, the external server reset the flag. This system enabled me to securely lock and unlock my dorm room door via text message.
 				</p>
 
+                                <div class="clearfix pad_top10">
+                                    <a href="http://www.youtube.com/watch?v=P3Lkn3tCQtg" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                                </div>
+
                             </div>   
                             </div>
                         </div>
@@ -834,7 +827,10 @@
                             <h5>Project Description</h5>
                                 <p class="pad_top13">
 					As a heavy sleeper, I seem to be immune to traditional alarm clocks. It seems like it is only until I stand up out of bed that I can shake my sleep drunken state. Consequently, I set out to create a Cole-proof alarm-clock, which could only be disabled once I left my bed and stood up. The solution was quite simple: merely adding a arduino-controlled buzzer that can only be disabled when sufficent pressure was applied to a weight-sensitive element. The user can prespecify a wake-up time, just like a normal alarm clock. Now, if only I can remember to set the alarm every night!
-				</p>
+				</p>    
+                                <div class="clearfix pad_top10">
+                                    <a href="http://www.youtube.com/watch?v=MqkalxyNxhw" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                                </div>
 
                             </div>   
                             </div>
@@ -881,6 +877,9 @@
                                 <p class="pad_top13"> 
 					I interfaced MyVu personal media viewer glasses with a raspberry pi to create a real-time caption interface, a la Google Glass. The raw audio input was fed into the Google Speech API which was responsible for the bulk of the work in transcribing the speech. The larger goal was to build a proof-of-concept tool which could potentially benefit the hearing-disabled.
 				</p>
+                                <div class="clearfix pad_top10">
+                                    <a href="http://www.youtube.com/watch?v=W3g_rOZ9jno" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                                </div>
 
                             </div>   
                             </div>
@@ -927,6 +926,9 @@
                                 <p class="pad_top13">
 					GreekGavel aimed to be a social network for fraternities, where members could pay their dues, coordinate social events,  and interface with other chapters within the greek community. Its main innovation was a tool to automatically port messages from the listserv to a clean, readable format simply by CC'ing listerv@greekgavel.com to all listserv communications. Of course, the conversation could be continued on the site, where threads and messages became instantly searchable. Since networking is an important aspect for greek-affiliated alumni, there was also an ability for members to upload resumes, and other employment information. Lastly, there was a utility to send a mass-text message to all members for pressing engagements.
 				</p>
+                           <div class="clearfix pad_top10">
+                                    <a href="http://bit.ly/Uta26J" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                            </div>
 
                             </div>   
                             </div>
