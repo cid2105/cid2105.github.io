@@ -10,7 +10,7 @@
 <meta name="author" content="The Spice Lounge" />
 
 <!-- Favicon -->
-<link rel="Shortcut Icon" href="assets/img/favicon.ico" />
+<link rel="Shortcut Icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
 <!-- Loading Google Web fonts-->
 <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
@@ -1127,7 +1127,7 @@
             <div class="col-md-6 content_text">
                 <div class="clearfix" >
                     <h1>References</h1>
-                    <div class="tags"> Some awesome people I've had the pleasure to work with.</div>
+                    <div class="tags"> Some awesome people I've had the pleasure to work alongside.</div>
                 <div class="clearfix">
                     <div class="pad_top40">
                         <div class="pad_top20 clearfix">
@@ -1138,9 +1138,11 @@
                                         <div class="team-img">
                                         	<img src="assets/img/daniel_weinstock.jpg" width="330" height="330" class="img-responsive" alt="">
                                         <div class="person-overlay">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="https://instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"></i></a>									                                        </div>
+                                            <!-- <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://twitter.com/harvard_iacs" target="_blank"><i class="fa fa-twitter"></i></a>
+                                            !-->
+                                            <a href="https://www.linkedin.com/pub/daniel-weinstock/4a/795/b04" target="_blank"><i class="fa fa-linkedin"></i></a>									                                        
+                                        </div>
                                         </div>
                                     </div>
                                     <div class="team-space col-md-9">
@@ -1148,7 +1150,7 @@
                                         	<i class="fa fa-users team-shadow"></i>
                                             <div class="team-title">Dr. Daniel Weinstock</div>
                                         <div class="content-smalltxt">Director, Computational Science and Engineering Program at Harvard</div>
-                                       		<p>An experienced Machine Learning practicioner, Cole is highly knowledgeable about cutting-edge tools in statistical analaysis and inference. He thrived in his Graduate studies despite taking some of the most quantitatively rigorous courses at Harvard.
+                                       		<p>An experienced <span class="bold">Machine Learning practicioner</span>, Cole is highly knowledgeable about cutting-edge tools in statistical analaysis and inference. He thrived in his Graduate studies despite taking some of the most quantitatively rigorous courses at <span class="bold">Harvard</span>.
 						</p>
                                         </div>
                                     </div>
@@ -1161,9 +1163,10 @@
                                         <div class="team-img">
                                        		<img src="assets/img/austin_reiter.jpg" width="330" height="330" class="img-responsive" alt="">
                                         <div class="person-overlay">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="https://instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"></i></a>						                                        </div>
+                                            <!-- <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a> -->
+                                            <!-- <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a> -->
+                                            <a href="https://www.linkedin.com/pub/austin-reiter/7/2aa/396/" target="_blank"><i class="fa fa-linkedin"></i></a>						                                        
+                                        </div>
                                         </div>
                                     </div>
                                     <div class="team-space col-md-9">
@@ -1172,7 +1175,7 @@
                                         	<div class="team-title">Austin Reiter</div>
                                         <div class="content-smalltxt">Assistant Research Professor at Johns Hopkins University</div>
                                         	<p>
-							As Cole's former professor at <span class="bold"> Columbia University </span> and manager at LSR Consulting, I can attest to Cole's considerable acumen, and talents. During my <span class="bold">Computer Vision</span> course, Cole demonstrated mastery of the material. Thereafter, I worked alongside Cole in providing techincal consulting to enterprises looking to leverage Computer Vision.
+							As Cole's former professor at <span class="bold"> Columbia University </span> and manager at <span class="bold">LSR Consulting</span>, I can attest to Cole's considerable acumen, and talents. During my <span class="bold">Computer Vision</span> course, Cole demonstrated mastery of the material. Thereafter, I worked alongside Cole in providing techincal consulting to enterprises looking to leverage Computer Vision.
 						</p>
 
                                         </div>
@@ -1186,9 +1189,10 @@
                                         <div class="team-img">
                                         	<img src="assets/img/phin_barnes.png" width="330" height="330" class="img-responsive" alt="">
                                         <div class="person-overlay">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="https://instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"></i></a>						                                        </div>
+                                            <!-- <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a> -->
+                                            <a href="https://twitter.com/phineasb" target="_blank"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.linkedin.com/in/phineasbarnes" target="_blank"><i class="fa fa-linkedin"></i></a>						                                        
+                                        </div>
                                         </div>
                                     </div>
                                     <div class="team-space col-md-9">
