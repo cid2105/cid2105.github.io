@@ -9,6 +9,9 @@
 <meta name="keywords" content="The Spice Lounge" />
 <meta name="author" content="The Spice Lounge" />
 
+<!-- Favicon -->
+<link rel="Shortcut Icon" href="assets/img/favicon.ico" />
+
 <!-- Loading Google Web fonts-->
 <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css' />
