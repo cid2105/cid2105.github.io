@@ -153,7 +153,7 @@
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li> -->
-                        <!--Social Icon 1--> -->
+                        <!--Social Icon 1-->
                         
                         <!--Social Icon 2-->
                         <li id="2">
@@ -236,7 +236,7 @@
 <div class="clearfix">
     <div class="clearfix container center">
         <div class="home_title" id="home_title">Hello, I'm <span class="bold">Cole Diamond</span></div>
-       <div id="typed" class="home_title_type"></div>
+        <div id="typed" class="home_title_type"></div>
     </div>
 </div>
 <!-- // Typer -->
@@ -598,42 +598,42 @@
     <ul id="portfolio-grid-modal">
       <li class="mix hardware mix_all">
       	<a href="#project_title1" data-toggle="modal"> 
-        <img src="assets/img/gallery/fingerprint.png"  alt="">
+        <img src="assets/img/gallery/fingerprint.png" height="250" width="250" alt="">
         </a>
       </li>
       <li class="mix software mix_all">
       	<a href="#project_title2" data-toggle="modal"> 
-        <img src="assets/img/gallery/emotion_classification.png" alt="">
+        <img src="assets/img/gallery/emotion_classification.png" height="250" width="250"  alt="">
         </a>
       </li>
       <li class="mix hardware mix_all">
       	<a href="#project_title3" data-toggle="modal"> 
-        <img src="assets/img/gallery/door_opener.png"  alt="text-message triggered door opener">
+        <img src="assets/img/gallery/door_opener.png"  height="250" width="250" alt="text-message triggered door opener">
         </a>
       </li>
       <li class="mix hardware mix_all">
       	<a href="#project_title4" data-toggle="modal"> 
-        <img src="assets/img/gallery/weight_alarm2.png" alt="weight alarm clock">
+        <img src="assets/img/gallery/weight_alarm2.png" height="250" width="250"  alt="weight alarm clock">
         </a>
       </li>
       <li class="mix hardware mix_all">
       	<a href="#project_title5" data-toggle="modal"> 
-        <img src="assets/img/gallery/speech_to_text.png" alt="">
+        <img src="assets/img/gallery/speech_to_text.png" height="250" width="250"  alt="google glass clone">
         </a>
       </li>
       <li class="mix software mix_all">
       	<a href="#project_title6" data-toggle="modal"> 
-        <img src="assets/img/gallery/greek_gavel.png" height="250" alt="">
+        <img src="assets/img/gallery/greek_gavel.png" height="250" width="250" alt="Greek Gavel">
         </a>
       </li>
       <li class="mix software mix_all">
       	<a href="#project_title7" data-toggle="modal"> 
-        <img src="assets/img/gallery/matchume.png" alt="">
+        <img src="assets/img/gallery/matchume.png" height="250" width="250" alt="matchu.me">
         </a>
       </li>
       <li class="mix software mix_all">
       	<a href="#project_title8" data-toggle="modal"> 
-        <img src="assets/img/gallery/stakd.png" alt="">
+        <img src="assets/img/gallery/stakd.png" height="250" width="250" alt="Stakd">
         </a>
       </li>
     </ul>
@@ -664,22 +664,19 @@
                         	<!-- Project Heading -->
                             <div class="clearfix col-lg-12">
                                 <div class="port-title clearfix">
-									<h1>Wings of Beauty</h1>
-									<div class="tags">Static Portfolio</div>
-								</div>
+					<h1>Fingerprint Credit Card Reader</h1>
+				</div>
 								
                                 
                             </div>
                             <!-- // Project Heading -->
                             <div class="pad_top30">
                             <div class="col-md-6 mar_bot30">
-                            	<img src="assets/img/gallery/15.jpg" alt="" class="img-responsive img_width"/>                            </div>
+                            	<img src="assets/img/gallery/fingerprint.png" alt="" class="img-responsive img_width"/>                            </div>
                              <div class="col-md-6 project_content">
-                            <h5>Project Descriptions</h5>
-                                <p class="pad_top13">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh
-                                sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti.
-                                Proin quis odio, dapibus mauris. Donec nisi libero, adipiscing
-                                id pretium eget, consectetur sit amet leo.</p>
+                            <h5>Project Description</h5>
+                                <p class="pad_top13">
+					"The handiest way to pay." I coupled a fingerprint reader with an arduino to map fingerprints to credit card numbers. The result was a fast, and more secure means of processing payments. My fingerprint credit card reader uses secure payment processing through the Stripe API. 				</p>
                                 <div class="project_details">
                             	<h5>Project Details</h5>
                                 <div class="clearfix pad_top13">	
@@ -699,9 +696,6 @@
 									
                                 </div>
                                 </div>
-                            <div class="clearfix pad_top10">
-								<a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>
-                             </div>
                             </div>   
                             </div>
                         </div>
@@ -711,478 +705,325 @@
                 <!-- // Modal body start -->
             </div>
         	<!-- // Project Title1 modal -->
-        
-        	<!-- Project Title2 modal 
+
+            <!-- Project Title2 modal 
 ========================================================================================================================================-->
             <div id="project_title2" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title2" aria-hidden="true">
+                <!-- Modal body start -->
                 <div class="modal-body color_background">
+                    <!-- Modal container -->
                     <div class="container">
                         <div class="row">
                             <!-- Project navigation -->
                             <div class="clearfix col-lg-12">
-                            	<div class="project_navigation">
+                            <div class="project_navigation">
                                 <div class="navigation_button"><a href="#project_title1" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                 <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
                                 <div class="navigation_button"><a href="#project_title3" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                               </div>
                             </div>
                             <!-- // Project navigation -->
-                        
+                            
+                            <!-- Project Heading -->
                             <div class="clearfix col-lg-12">
-								<div class="port-title clearfix">
-									<h1>I Believe I Can Fly</h1>
-									<div class="tags">Landscape Portfolio</div>
-								</div>
-                            </div>
-                        
-                            <div class="clearfix col-lg-12 pad_top30">
-                            	<img src="assets/img/gallery/26.jpg" alt=""  class="img-responsive port-modal-img"/>                            </div>
-                        
-                            <div class="project_content_top">
-                                <div class="col-lg-12 clearfix text-left">
-									<div class="row">
-                                    <div class="col-lg-4">
-                                        <p>Lorem ipsum dolor sit amet, consectetur  elit. Cras vel turpis laoreet, auctor sapien sit amet, condimentum metus.</p>
-                                        <div class="clearfix pad_top20">
-                                            <a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>                                   </div>
-                                    </div>
-                                    <div class="col-lg-4 mar_bot30 restop30">
-                                        <p>Proin eleifend velit et lacus aliquet sodales. Ut condimentum lacus quis tellus scelerisque rutrum. Duis at auctor mi. Sed scelerisque eget.</p>
-                                    </div>
-                                    <div class="col-lg-4">
-                                    	<h5>Project Details</h5>
-                                        <div class="clearfix pad_top13">
-										
-										<div class="pinfo clearfix">
-											<span class="input-box">Date </span>
-											<span class="pright">15th December 2013</span>
-										</div>
-										<div class="pinfo clearfix">
-											<span class="input-box">Categories </span>
-											<span class="pright">Brochures</span>
-										</div>
-										<div class="pinfo clearfix">
-											<span class="input-box">Client </span>
-											<span class="pright">John Doe</span>
-										</div>
-                                        
-                                        </div>
-                                    </div>
-									</div>
+                                <div class="port-title clearfix">
+                                    <h1>Emotion Classification</h1>
                                 </div>
+                            </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                            <div class="col-md-6 mar_bot30">
+                                <img src="assets/img/gallery/emotion_classification.png" alt="" class="img-responsive img_width"/>                            </div>
+                             <div class="col-md-6 project_content">
+                            <h5>Project Description</h5>
+                                <p class="pad_top13">
+					The goal was to identify the emotionality of a document. I used ensemble classification methods to bucketize tfidf-vectorized documents into six categories:  ‘joy’, ‘fear’, ‘sadness’, ‘anger’, ‘shame’ and ‘disgust’. The training text from the ISEAR databank was normalized with porter stemming, and stop words were removed. To categorize the query text, I trained a random forest of 100 nodes with bootstrap sampling and used gini impurity to measure split quality. I then extended the model to normalize hyponyms of emotional words to a common class and to allow for exclamation points and question marks. If the probability of the predicted emotion is less than a certain threshold, the text is classified as ‘neutral.’
+                                </p>
+
+                                </div>   
                             </div>
                         </div>
                     </div>
+                    <!-- // Modal container -->
                 </div>
+                <!-- // Modal body start -->
             </div>
-        <!-- //Project Title2 modal -->
-        
-        <!-- Project Title3 modal 
+            <!-- // Project Title2 modal -->
+
+            <!-- Project Title3 modal 
 ========================================================================================================================================-->
-        <div id="project_title3" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title3" aria-hidden="true">
-            <div class="modal-body color_background">
-                <div class="container">
-                    <div class="row">
-                        <!-- Project navigation -->
+            <div id="project_title3" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title3" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
                             <div class="clearfix col-lg-12">
-                            	<div class="project_navigation">
+                            <div class="project_navigation">
                                 <div class="navigation_button"><a href="#project_title2" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                 <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
                                 <div class="navigation_button"><a href="#project_title4" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                               </div>
                             </div>
                             <!-- // Project navigation -->
-                    
-                        <div class="clearfix col-lg-12">
-							<div class="port-title clearfix">
-								<h1>Flying Rose</h1>
-								<div class="tags">Vimeo Portfolio</div>
-							</div>
-                        </div>
-                    
-                        <div class="col-md-12 text-center pad_top30">
-                        <div class="video_containers">
-                        <iframe src="http://player.vimeo.com/video/85330977?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" ></iframe>
-</div>	
-                      </div>
-                    
-                        <div class="clearfix text-left project_content_top">
-                            <div class="col-lg-8">
-                                <div class="clearfix">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel turpis laoreet, auctor sapien sit amet, condimentum metus. Vivamus vehicula nisl id rutrum volutpat. Mauris ut mauris in dui .pretium porttitor ut quis sapien.</p>
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Text-Message Triggered Door Opener</h1>
                                 </div>
-                                <div class="clearfix pad_top20">
-                                	<a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>
-                                </div>
+                                
+                                
                             </div>
-                            <div class="col-lg-4  restop30">
-                            	<h5 class="martop0">Project Details</h5>
-                                <div class="clearfix pad_top13">
-								
-								<div class="pinfo clearfix">
-									<span class="input-box">Date </span>
-									<span class="pright">15th December 2013</span>
-								</div>
-								<div class="pinfo clearfix">
-									<span class="input-box">Categories </span>
-									<span class="pright">Brochures</span>
-								</div>
-								<div class="pinfo clearfix">
-									<span class="input-box">Client </span>
-									<span class="pright">John Doe</span>
-								</div>
-								
-                                </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                            <div class="col-md-6 mar_bot30">
+                                <img src="assets/img/gallery/door_opener.png" alt="" class="img-responsive img_width"/>                            </div>
+                             <div class="col-md-6 project_content">
+                            <h5>Project Description</h5>
+                                <p class="pad_top13">
+					After having locked myself out several times, I decided to take matters into my own hands. I can't tell you how cool I felt after I rigged my dorm room door to unlock itself with a text. To achieve this, I used a networked arduino to programmatically control a servo to lock and unlock my door. The arduino continuously pinged a website to check for the 'unlock' flag. An external server set the 'unlock' flag to true when an incoming text message contained a correct, secret password. After the servo unlocked the door, the external server reset the flag. This system enabled me to securely lock and unlock my dorm room door via text message.
+				</p>
+
+                            </div>   
                             </div>
                         </div>
                     </div>
+                    <!-- // Modal container -->
                 </div>
+                <!-- // Modal body start -->
             </div>
-        </div>
-        <!-- //Project Title3 modal -->
-        
-        <!-- Project Title4 modal 
+            <!-- // Project Title3 modal -->
+
+
+            <!-- Project Title4 modal 
 ========================================================================================================================================-->
-        <div id="project_title4" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title4" aria-hidden="true">
-            <div class="modal-body color_background">
-                <div class="container">
-                    <div class="row">
-                        <!-- Project navigation -->
+            <div id="project_title4" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title4" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
                             <div class="clearfix col-lg-12">
-                            	<div class="project_navigation">
+                            <div class="project_navigation">
                                 <div class="navigation_button"><a href="#project_title3" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                 <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
                                 <div class="navigation_button"><a href="#project_title5" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                               </div>
                             </div>
                             <!-- // Project navigation -->
-                    
-                        <div class="clearfix col-lg-12">
-							<div class="port-title clearfix">
-								<h1>Shy on Sky</h1>
-								<div class="tags">Portfolio with Slider</div>
-							</div>
-                        </div>
-                        <div class="clearfix col-md-12 pad_top30">	
-                            <div id="myCarousel" class="carousel slide">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                                </ol>
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Pressure-sensitive Alarm Clock</h1>
+                                </div>
                                 
-                                <div class="carousel-inner">
-                                    <div class="item active"><img src="assets/img/gallery/24.jpg" class="img-responsive img_width" alt=""/></div>
-                                    <div class="item"><img src="assets/img/gallery/25.jpg" class="img-responsive img_width" alt=""/></div>
-                                    <div class="item"><img src="assets/img/gallery/23.jpg" class="img-responsive img_width" alt=""/></div>
-                                </div>	
-                            </div>			
+                                
+                            </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                            <div class="col-md-6 mar_bot30">
+                                <img src="assets/img/gallery/weight_alarm2.png" alt="" class="img-responsive img_width"/>                            </div>
+                             <div class="col-md-6 project_content">
+                            <h5>Project Description</h5>
+                                <p class="pad_top13">
+					As a heavy sleeper, I seem to be immune to traditional alarm clocks. It seems like it is only until I stand up out of bed that I can shake my sleep drunken state. Consequently, I set out to create a Cole-proof alarm-clock, which could only be disabled once I left my bed and stood up. The solution was quite simple: merely adding a arduino-controlled buzzer that can only be disabled when sufficent pressure was applied to a weight-sensitive element. The user can prespecify a wake-up time, just like a normal alarm clock. Now, if only I can remember to set the alarm every night!
+				</p>
+
+                            </div>   
+                            </div>
                         </div>
                     </div>
-                
-                    <div class="row  project_content_top">
-                                <div class="col-lg-12 clearfix text-left">
-									<div class="row">
-                                    <div class="col-lg-4">
-                                        <p>Lorem ipsum dolor sit amet, consectetur  elit. Cras vel turpis laoreet, auctor sapien sit amet, condimentum metus.</p>
-                                        <div class="clearfix pad_top20">
-                                            <a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>                                   </div>
-                                    </div>
-                                    <div class="col-lg-4 mar_bot30  restop30">
-                                        <p>Proin eleifend velit et lacus aliquet sodales. Ut condimentum lacus quis tellus scelerisque rutrum. Duis at auctor mi.</p>
-                                    </div>
-                                    <div class="col-lg-4">
-                                    	<h5>Project Details</h5>
-                                        <div class="clearfix pad_top13">
-										
-										<div class="pinfo clearfix">
-											<span class="input-box">Date </span>
-											<span class="pright">15th December 2013</span>
-										</div>
-										<div class="pinfo clearfix">
-											<span class="input-box">Categories </span>
-											<span class="pright">Brochures</span>
-										</div>
-										<div class="pinfo clearfix">
-											<span class="input-box">Client </span>
-											<span class="pright">John Doe</span>
-										</div>
-                                        
-                                        </div>
-                                    </div>
-									</div>
-                                </div>
-                  </div>					
+                    <!-- // Modal container -->
                 </div>
+                <!-- // Modal body start -->
             </div>
-        </div>
-        <!-- //Project Title4 modal -->
-        
-        <!-- Project Title5 modal 
+            <!-- // Project Title4 modal -->
+
+            <!-- Project Title5 modal 
 ========================================================================================================================================-->
-        <div id="project_title5" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title5" aria-hidden="true">
-            <div class="modal-body color_background">
-                <div class="container">
-                    <div class="row">
-                        <!-- Project navigation -->
+            <div id="project_title5" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title5" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
                             <div class="clearfix col-lg-12">
-                            	<div class="project_navigation">
+                            <div class="project_navigation">
                                 <div class="navigation_button"><a href="#project_title4" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                 <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
                                 <div class="navigation_button"><a href="#project_title6" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                               </div>
                             </div>
                             <!-- // Project navigation -->
-                    
-                        <div class="clearfix col-lg-12">
-							<div class="port-title clearfix">
-								<h1>Portraitable Beauty</h1>
-								<div class="tags">Landscape Portfolio Images</div>
-							</div>
-                       </div>
-                    
-                        <div class="clearfix col-lg-12 pad_top30">				
-                            <img src="assets/img/gallery/26.jpg" alt="" class="img-responsive port-modal-img"/>
-                            <img src="assets/img/gallery/25.jpg" alt="" class="pad_top10 img-responsive port-modal-img"/>                        </div>					
-                        <div class="clearfix text-left project_content_top">
-                            <div class="col-lg-8">
-                                <div class="clearfix">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel turpis laoreet, auctor sapien sit amet, condimentum metus. Vivamus vehicula nisl id rutrum volutpat. Mauris ut mauris in dui .pretium porttitor ut quis sapien.</p>
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Wearable, Real-time Subtitles</h1>
                                 </div>
-                                <div class="clearfix pad_top20">
-                            	<a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>
-                                </div>
+                                
+                                
                             </div>
-                            <div class="col-lg-4 restop30">
-                            	<h5 class="martop0">Project Details</h5>
-                                <div class="clearfix pad_top13">
-								
-								<div class="pinfo clearfix">
-									<span class="input-box">Date </span>
-									<span class="pright">15th December 2013</span>
-								</div>
-								<div class="pinfo clearfix">
-									<span class="input-box">Categories </span>
-									<span class="pright">Brochures</span>
-								</div>
-								<div class="pinfo clearfix">
-									<span class="input-box">Client </span>
-									<span class="pright">John Doe</span>
-								</div>
-										
-                                </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                            <div class="col-md-6 mar_bot30">
+                                <img src="assets/img/gallery/speech_to_text.png" alt="" class="img-responsive img_width"/>                            </div>
+                             <div class="col-md-6 project_content">
+                            <h5>Project Description</h5>
+                                <p class="pad_top13"> 
+					I interfaced MyVu personal media viewer glasses with a raspberry pi to create a real-time caption interface, a la Google Glass. The raw audio input was fed into the Google Speech API which was responsible for the bulk of the work in transcribing the speech. The larger goal was to build a proof-of-concept tool which could potentially benefit the hearing-disabled.
+				</p>
+
+                            </div>   
                             </div>
                         </div>
                     </div>
+                    <!-- // Modal container -->
                 </div>
+                <!-- // Modal body start -->
             </div>
-        </div>
-    	<!-- //Project Title5 modal -->
-    
-        <!-- Project Title6 modal 
+            <!-- // Project Title5 modal -->
+
+            <!-- Project Title6 modal 
 ========================================================================================================================================-->
-        <div id="project_title6" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title6" aria-hidden="true">
-            <div class="modal-body color_background">
-                <div class="container">
-                    <div class="row">
-                        <!-- Project navigation -->
+            <div id="project_title6" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title6" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
                             <div class="clearfix col-lg-12">
-                            	<div class="project_navigation">
+                            <div class="project_navigation">
                                 <div class="navigation_button"><a href="#project_title5" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                 <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
                                 <div class="navigation_button"><a href="#project_title7" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                               </div>
                             </div>
                             <!-- // Project navigation -->
-                    
-                        <div class="clearfix col-lg-12">
-							<div class="port-title clearfix">
-								<h1>Buttery Beauty</h1>
-								<div class="tags">3 BY 1 Image Portfolio</div>
-							</div>
-                        </div>
-                        
-                        <div class=" pad_top30">
-                        <div class="col-md-8 mar_bot30">
-                        	<img src="assets/img/gallery/6.jpg" alt="" class="img-responsive img_width"/>                        </div>
-                         
-                         <div class="col-md-4 project_content">
-                        	<h5>Project Descriptions</h5>
-                            <p class="pad_top13">Lorem ipsum dolor sit amet, adipiscing elit. Aenean vitae lacinia justo. Lorem ipsum amet, consectetur adipiscing elit. Suspendisse volutpat quam vitae enim hendrerit venenatis.<br/><br/> Integer aliquet ac ipsum id pulvinar. Nulla varius ut congue bibendum. Quisque luctus laoreet.</p>
-                        
-                        <div class="team-line-port"></div>
-                        
-                        <div class="project_details">
-                            	<h5>Project Details</h5>
-                                <div class="clearfix pad_top13">	
-									
-									<div class="pinfo clearfix">
-										<span class="input-box">Date </span>
-										<span class="pright">15th December 2013</span>
-									</div>
-									<div class="pinfo clearfix">
-										<span class="input-box">Categories </span>
-										<span class="pright">Brochures</span>
-									</div>
-									<div class="pinfo clearfix">
-										<span class="input-box">Client </span>
-										<span class="pright">John Doe</span>
-
-									</div>
-
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Greekgavel</h1>
                                 </div>
-                                </div>
-                            <div class="clearfix pad_top10">
-                                <a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>
+                                
+                                
                             </div>
-                        </div>   
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                            <div class="col-md-6 mar_bot30">
+                                <img src="assets/img/gallery/greek_gavel.png" alt="" class="img-responsive img_width"/>                            </div>
+                             <div class="col-md-6 project_content">
+                            <h5>Project Description</h5>
+                                <p class="pad_top13">
+					GreekGavel aimed to be a social network for fraternities, where members could pay their dues, coordinate social events,  and interface with other chapters within the greek community. Its main innovation was a tool to automatically port messages from the listserv to a clean, readable format simply by CC'ing listerv@greekgavel.com to all listserv communications. Of course, the conversation could be continued on the site, where threads and messages became instantly searchable. Since networking is an important aspect for greek-affiliated alumni, there was also an ability for members to upload resumes, and other employment information. Lastly, there was a utility to send a mass-text message to all members for pressing engagements.
+				</p>
+
+                            </div>   
+                            </div>
                         </div>
                     </div>
+                    <!-- // Modal container -->
                 </div>
+                <!-- // Modal body start -->
             </div>
-        </div>
-    	<!-- //Project Title6 modal -->
-    
-        <!-- Project Title7 modal 
+            <!-- // Project Title6 modal -->
+
+            <!-- Project Title7 modal 
 ========================================================================================================================================-->
-        <div id="project_title7" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title7" aria-hidden="true">
-            <div class="modal-body color_background">
-                <div class="container">
-                    <div class="row">
-                        <!-- Project navigation -->
+            <div id="project_title7" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title7" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
                             <div class="clearfix col-lg-12">
-                            	<div class="project_navigation">
+                            <div class="project_navigation">
                                 <div class="navigation_button"><a href="#project_title6" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                 <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
                                 <div class="navigation_button"><a href="#project_title8" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                               </div>
                             </div>
                             <!-- // Project navigation -->
-                    
-                        <div class="clearfix col-lg-12">
-							<div class="port-title clearfix">
-								<h1>Shy on Sky</h1>
-								<div class="tags">Portfolio with Slider</div>
-							</div>
-                        </div>
-                        <div class="clearfix col-md-12 pad_top30">	
-                            <div id="myCarousel1" class="carousel slide">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel1" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel1" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                      <div class="item active"><img src="assets/img/gallery/24.jpg" class="img-responsive img_width" alt=""/></div>
-                                    <div class="item"><img src="assets/img/gallery/25.jpg" class="img-responsive img_width" alt=""/></div>
-                                    <div class="item"><img src="assets/img/gallery/23.jpg" class="img-responsive img_width" alt=""/></div>
-                                </div>	
-                            </div>			
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Matchu.me</h1>
+                                </div>
+                            </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                            <div class="col-md-6 mar_bot30">
+                                <img src="assets/img/gallery/matchume.png" alt="" class="img-responsive img_width"/>                            </div>
+                             <div class="col-md-6 project_content">
+                            <h5>Project Description</h5>
+                                <p class="pad_top13">
+					MatchU.Me was Tinder before Tinder. Deemed "Columbia's digital wingman", MatchU.Me connected secret admirers. The hope was to remove the anxiety out of dating, and unrequited love. Only when both parties expressed a mutual interest was the match revealed. For the bold, there was a tool to bypass the traditional matching process to explicity indicate interest. Additionally, there was a utility to allow one-way matches to communicate with their crushes, through a secret-admirers channel. If the crush recipient sent back a 'reveal request' to the anonymous sweetheart, and he/she accepted, then the anonymous-lover's identity is revealed. Additionally, there was a most-matchable feed to showcase the most desired users in order to add to the gamification aspect. Most importantly, MatchU.Me was exclusive, and solely intended for the Columbia community. 
+				</p>
+
+                            </div>   
+                            </div>
                         </div>
                     </div>
-                
-                    <div class="row  project_content_top">
-                                <div class="clearfix text-left">
-                                    <div class="col-lg-4">
-                                        <p>Lorem ipsum dolor sit amet, consectetur  elit. Cras vel turpis laoreet, auctor sapien sit amet, condimentum metus. Vivamus vehicula nisl id rutrum volutpat.</p>
-                                        <div class="clearfix pad_top20">
-                                            <a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>                                   </div>
-                                    </div>
-                                    <div class="col-lg-4 mar_bot30  restop30">
-                                        <p>Proin eleifend velit et lacus aliquet sodales. Ut condimentum lacus quis tellus scelerisque rutrum. Duis at auctor mi. Sed scelerisque mi dui, eget libero ornare eget.</p>
-                                    </div>
-                                    <div class="col-lg-4">
-                                    	<h5>Project Details</h5>
-                                        <div class="clearfix pad_top13">
-											
-											<div class="pinfo clearfix">
-												<span class="input-box">Date </span>
-												<span class="pright">15th December 2013</span>
-											</div>
-											<div class="pinfo clearfix">
-												<span class="input-box">Categories </span>
-												<span class="pright">Brochures</span>
-											</div>
-											<div class="pinfo clearfix">
-												<span class="input-box">Client </span>
-												<span class="pright">John Doe</span>
-											</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                  </div>					
+                    <!-- // Modal container -->
                 </div>
+                <!-- // Modal body start -->
             </div>
-        </div>
-        <!-- //Project Title7 modal -->
-    
-        <!-- Project Title8 modal 
+            <!-- // Project Title7 modal -->
+
+            <!-- Project Title8 modal 
 ========================================================================================================================================-->
-    <div id="project_title8" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title8" aria-hidden="true">
-    <div class="modal-body color_background">
-    <div class="container">
-    <div class="row">
-    
-    <!-- Project navigation -->
+            <div id="project_title8" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title8" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
                             <div class="clearfix col-lg-12">
-                            	<div class="project_navigation">
+                            <div class="project_navigation">
                                 <div class="navigation_button"><a href="#project_title7" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                 <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
                                 <div class="navigation_button"><a href="#project_title1" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                               </div>
                             </div>
                             <!-- // Project navigation -->
-    
-    <div class="clearfix col-lg-12">
-		<div class="port-title clearfix">
-			<h1>I Believe I Can Fly</h1>
-			<div class="tags">You tube Video</div>
-		</div>
-    </div>
-    
-    
-    <div class="clearfix col-lg-12 pad_top30">
-	<div class="video_containers">
-		<iframe src="http://www.youtube.com/embed/iU8iA7jfrIg?html5=1" width="500" height="281" ></iframe>
-	</div>
-</div>
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Stakd</h1>
+                                </div>
+                                
+                                
+                            </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                            <div class="col-md-6 mar_bot30">
+                                <img src="assets/img/gallery/stakd.png" alt="" class="img-responsive img_width"/>                            </div>
+                             <div class="col-md-6 project_content">
+                            <h5>Project Description</h5>
+                                <p class="pad_top13">
+   					Stakd is essentially an interactive buzzfeed. Users collaborate to build top-ten lists. For example, one might create a stack to determine the Beatles' top ten hits of all time. The results are aggregated across all users and the lists present the responses in order of frequency. Stakd normalized responses using Natural Language Processing, and had a utility to quickly "remix" stacks to personalize items. 
+                            	</p>
 
-<div class="col-lg-12 marleft_10 clearfix text-left project_content_top">
-<div class="row">
-<div class="col-lg-8">
-<div class="clearfix"><p>In interdum ante nisi, vel venenatis metus ullamcorper et. Duis malesuada sapien ac nunc congue bibendum. Nam quis risus vulputate risus faucibus ultrices. Nullam ultricies dui justo, quis imperdiet nunc fringilla non. Sed luctus mattis pellentesque. </p></div>
-<div class="clearfix pad_top20">
-                                <a href="#" class="btn btn-3 btn-3e nav-link" target="_blank">Live Preview</a>
-              </div>
-</div>
-
-<div class="col-lg-4  restop30">
-<h5 class="martop0">Project Details</h5>
-<div class="clearfix pad_top13">
-
-	<div class="pinfo clearfix">
-		<span class="input-box">Date </span>
-		<span class="pright">15th December 2013</span>
-	</div>
-	<div class="pinfo clearfix">
-		<span class="input-box">Categories </span>
-		<span class="pright">Brochures</span>
-	</div>
-	<div class="pinfo clearfix">
-		<span class="input-box">Client </span>
-		<span class="pright">John Doe</span>
-	</div>
-
-</div>
-</div>
-</div>
-</div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <!-- //Project Title8 modal -->
+                            </div>   
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // Modal container -->
+                </div>
+                <!-- // Modal body start -->
+            </div>
+            <!-- // Project Title8 modal -->
 
 </div>
 <!-- Portfolio CONTENT -->
@@ -1302,7 +1143,8 @@
                                         	<i class="fa fa-users team-shadow"></i>
                                             <div class="team-title">Dr. Daniel Weinstock</div>
                                         <div class="content-smalltxt">Director, Computational Science and Engineering Program at Harvard</div>
-                                       		<p>I am a GUI hardwareer, specializing in user experience for web-based applications and websites with <span class="bold">11 years of experience </span>. voluptate velit esse cillum dolore eu fugiat.</p>
+                                       		<p>An experienced Machine Learning practicioner, Cole is highly knowledgeable about cutting-edge tools in statistical analaysis and inference. He thrived in his Graduate studies despite taking some of the most quantitatively rigorous courses at Harvard.
+						</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1324,7 +1166,10 @@
                                         	<i class="fa fa-users team-shadow"></i>
                                         	<div class="team-title">Austin Reiter</div>
                                         <div class="content-smalltxt">Assistant Research Professor at Johns Hopkins University</div>
-                                        	<p>Our passion for dynamic, <span class="bold">gorgeous hardware and the little details</span> come through with every click of mouse.</p>
+                                        	<p>
+							As Cole's former professor at <span class="bold"> Columbia University </span> and manager at LSR Consulting, I can attest to Cole's considerable acumen, and talents. During my <span class="bold">Computer Vision</span> course, Cole demonstrated mastery of the material. Thereafter, I worked alongside Cole in providing techincal consulting to enterprises looking to leverage Computer Vision.
+						</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -1334,7 +1179,7 @@
                                 <div class="clearfix team">
                                     <div class="col-md-3">
                                         <div class="team-img">
-                                        	<img src="assets/img/3.jpg" width="330" height="330" class="img-responsive" alt="">
+                                        	<img src="assets/img/phin_barnes.png" width="330" height="330" class="img-responsive" alt="">
                                         <div class="person-overlay">
                                             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
                                             <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -1344,36 +1189,13 @@
                                     <div class="team-space col-md-9">
                                         <div class="team-box">
                                         	<i class="fa fa-users team-shadow"></i>
-                                        	<div class="team-title">Charles Tyler</div>
-                                        <div class="content-smalltxt">Manager</div>
-                                        <p>Duis aute irure dolor in reprehenderit in <span class="bold">WWW Awarded WP Developer </span>esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+                                        	<div class="team-title">Phin Barnes</div>
+                                        <div class="content-smalltxt">Partner, First Round Capital</div>
+                                        <p>While a member of the first class of the<span class="bold"> Dorm Room Fund </span> NYC team, Cole helped source investment opportunities, further business development and drive investment decisions. His input directly led to the investment of Dorm Room  Fund's capital in several seed-stage companies.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- // Team 3-->
-                                
-                                <!--Team 4-->
-                                <div class="clearfix team">
-                                    <div class="col-md-3">
-                                        <div class="team-img">
-                                        	<img src="assets/img/4.jpg" width="330" height="330" class="img-responsive" alt="">
-                                        <div class="person-overlay">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="https://instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"></i></a>						                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="team-space col-md-9">
-                                        <div class="team-box">
-                                        	<i class="fa fa-users team-shadow"></i>
-                                        	<div class="team-title">Benjamin Fillier</div>
-                                        <div class="content-smalltxt">hardwareer</div>
-                                        <p>Duis aute irure dolor in <span class="bold">reprehenderit in voluptate velit</span> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- // Team 4-->
-                            
                             </div>
                         </div>
                     </div>
