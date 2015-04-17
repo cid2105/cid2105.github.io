@@ -2,7 +2,8 @@
   "require" : {
     "silex/silex": "~1.1",
     "monolog/monolog": "~1.7",
-    "sendgrid/sendgrid": "2.0.5"
+    "sendgrid/sendgrid": "2.0.5",
+    "get-stream/stream": "2.1.1"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"

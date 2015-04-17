@@ -185,7 +185,7 @@
                 </div>
 				<div class="call">
 					<div class="home_address">
-						<a href="mailto:info@mathewjoyson.com">
+						<a href="mailto:cole.ian.diamond@gmail.com">
                 			<i class="fa fa-envelope"></i>cole.ian.diamond@gmail.com
                 		</a>
 					</div>
