@@ -1310,6 +1310,15 @@
 		</a>
 	</div>
     <!-- // Spmenu 3-->
+
+    <!--Spmenu 4-->
+    <div id="spmenu4" style="visibility:hidden;">   <button class="spmenu spmenu4"  onclick="modalshow('#video2')"  data-toggle="modal" data-target="#lightbox3">
+            <span><i class="fa fa-desktop"></i></span>
+            <span class="sptext">Video Resume</span>
+        </button>
+    </div>
+    <!-- // Spmenu 4-->
+
     </div>
 </div>
 
@@ -1331,6 +1340,22 @@
 	</div>
 	</div>
 </div>
+
+<div id="video2" >
+    <div id="lightbox3" class="lightbox2 modal fade in" tabindex="-1" role="dialog" aria-labelledby="video2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" ><img src="assets/img/close.png" alt=" "></button>
+                <div class="modal-body">
+                    <div class="video_containers">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/092NbybLsOI?autoplay=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </div>
 </div>

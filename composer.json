@@ -3,7 +3,8 @@
     "silex/silex": "~1.1",
     "monolog/monolog": "~1.7",
     "sendgrid/sendgrid": "2.0.5",
-    "get-stream/stream": "2.1.1"
+    "get-stream/stream": "2.1.1",
+    "predis/predis": "0.8.7"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
