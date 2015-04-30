@@ -302,7 +302,13 @@ window.location.href = name;
 						var email_file = $("#contact_form").attr("action");
 						// do other stuff for a valid form
 						$.post(email_file, $("#contact_form").serialize(), function(data) { // action file is here 
-							$('#contact_form').html(data);
+							if(data == "Email sent successfully."){
+								$('#contact_form_response').html("<hr/><b>" + data + "</b>");
+							}
+							else {
+								grecaptcha.reset();
+								$('#contact_form_response').html("<span style='font-weight:bold;color:#B33A3A;/>Recaptcha response invalid. Please reattempt.</span>");		
+							}	
 						});
 					}
 		});

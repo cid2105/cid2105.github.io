@@ -60,6 +60,7 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 <script src="assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 <body>
@@ -1237,6 +1238,7 @@
                 	<h1>Drop Me A Line</h1>
 					<div class="tags">If you’re considering hiring me or would like a free project price quote, please fill the form below Thank you!
 </div>
+					<div class="tags" id="contact_form_response"></div>
                 <!--Form Starts-->
                 <form id="contact_form" class="cont_form pad_top13" action="contact_form.php" method="post">
                 	
@@ -1257,8 +1259,13 @@
                     <textarea name="message" class="validate['required'] messagebox1"
                     placeholder="* Message : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Message :'"></textarea>
                     <!-- // Input 3-->
-                    
-                    <!--Button-->
+ 		    
+		    <!--    ReCAPTCHA-->                   
+                    <div class="g-recaptcha" data-sitekey="6LdZ6-gSAAAAAG6hPyz23M4XPTzHUkY4Cq6ydpZC"></div>
+		    <!-- // ReCAPTCHA-->
+		    
+                    <br/><br/><br/>
+		    <!--Button-->
                     <button id="contactsubmitBtn" type="submit" class="btn btn-3 btn-3e">Submit</button>
                     <!-- // Button-->
                 </div>
