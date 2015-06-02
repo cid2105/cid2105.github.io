@@ -236,7 +236,6 @@ var Konami = function (callback) {
 };
 
 var easter_egg = new Konami(function() { 
-		
         $("button.spmenu4").trigger('click');
         $("#lightbox3 iframe").attr("src", "https://www.youtube.com/embed/092NbybLsOI?autoplay=1"); 
     });

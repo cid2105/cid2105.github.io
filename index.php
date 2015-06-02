@@ -60,8 +60,13 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 <script src="assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+<<<<<<< HEAD
 <script type="text/javascript" src="assets/js/coursework.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
+=======
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+>>>>>>> f4d5b9025b1c8fc3857beaf6b190f316eea9ff05
 </head>
 <body>
 
@@ -1267,6 +1272,7 @@
                     <h1>Drop Me A Line</h1>
                     <div class="tags">If you’re considering hiring me or would like a free project price quote, please fill the form below Thank you!
 </div>
+					<div class="tags" id="contact_form_response"></div>
                 <!--Form Starts-->
                 <form id="contact_form" class="cont_form pad_top13" action="contact_form.php" method="post">
                     
@@ -1287,12 +1293,22 @@
                     <textarea name="message" class="validate['required'] messagebox1"
                     placeholder="* Message : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Message :'"></textarea>
                     <!-- // Input 3-->
+<<<<<<< HEAD
                     
             <!--ReCAPTCHA-->
             <div class="g-recaptcha" data-sitekey="6LdZ6-gSAAAAAG6hPyz23M4XPTzHUkY4Cq6ydpZC"></div>
             <!-- // ReCAPTCHA-->
 
                     <!--Button-->
+=======
+ 		    
+		    <!--    ReCAPTCHA-->                   
+                    <div class="g-recaptcha" data-sitekey="6LdZ6-gSAAAAAG6hPyz23M4XPTzHUkY4Cq6ydpZC"></div>
+		    <!-- // ReCAPTCHA-->
+		    
+                    <br/><br/><br/>
+		    <!--Button-->
+>>>>>>> f4d5b9025b1c8fc3857beaf6b190f316eea9ff05
                     <button id="contactsubmitBtn" type="submit" class="btn btn-3 btn-3e">Submit</button>
                     <!-- // Button-->
                 </div>
@@ -1346,7 +1362,11 @@
     <!-- // Spmenu 3-->
 
     <!--Spmenu 4-->
+<<<<<<< HEAD
     <div id="spmenu4" style="display:none;">   <button class="spmenu spmenu4"  onclick="modalshow('#video2')"  data-toggle="modal" data-target="#lightbox3">
+=======
+    <div id="spmenu4" style="visibility:hidden;">   <button class="spmenu spmenu4"  onclick="modalshow('#video2')"  data-toggle="modal" data-target="#lightbox3">
+>>>>>>> f4d5b9025b1c8fc3857beaf6b190f316eea9ff05
             <span><i class="fa fa-desktop"></i></span>
             <span class="sptext">Video Resume</span>
         </button>
@@ -1389,6 +1409,22 @@
         </div>
     </div>
 </div>
+
+<div id="video2" >
+    <div id="lightbox3" class="lightbox2 modal fade in" tabindex="-1" role="dialog" aria-labelledby="video2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" ><img src="assets/img/close.png" alt=" "></button>
+                <div class="modal-body">
+                    <div class="video_containers">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/092NbybLsOI?autoplay=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </div>
 </div>
