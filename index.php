@@ -60,7 +60,8 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 <script src="assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-
+<script type="text/javascript" src="assets/js/coursework.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -117,9 +118,10 @@
                 	<a href="#" class="nav-toggle"></a>
                 <ul id="sub-nav" class="nav">
                     <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#fullwidth" class="nav-link">About Me</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
                     <li><a href="#skills3" class="nav-link">Skills</a></li>
                	  <li><a href="#resume" class="nav-link">Resume</a></li>
+                  <li><a href="#coursework" class="nav-link">Coursework</a></li>
                     <li><a href="#projectmodal" class="nav-link">Projects</a></li>
                     <li><a href="#references" class="nav-link">References</a></li>
                	  <li><a href="#contactform" class="nav-link">Contact</a></li>
@@ -212,11 +214,11 @@
                         	<a href="#" class="nav-toggle"></a>
                         <ul id="home_scroll" class="nav">
                             <li><span class="nav-link selected1">Home</span></li>
-                        	<li><a href="#fullwidth" class="nav-link">About Me</a></li>
+                        	<li><a href="#about" class="nav-link">About Me</a></li>
                             <li><a href="#skills3" class="nav-link">Skills</a></li>
                           <li><a href="#resume" class="nav-link">Resume</a></li>
-                            <li><a href="#projectmodal" class="nav-link">Projects</a>
-                          </li>
+                          <li><a href="#coursework" class="nav-link">Coursework</a></li>
+                            <li><a href="#projectmodal" class="nav-link">Projects</a></li>
                           <li><a href="#references" class="nav-link">References</a></li>
                        	  <li><a href="#contactform" class="nav-link">Contact</a></li>
                         </ul>
@@ -1039,10 +1041,10 @@
 =============================-->
 
 
-<!-- Full-Width
+<!-- About
 =============================-->    
 
-<div id="fullwidth" class="item subpage fullwidth">
+<div id="about" class="item subpage fullwidth">
     <div class="content">
     	<div class="content_overlay_fullwidth"></div>
     <div class="content_inner">
@@ -1103,7 +1105,35 @@
     </div>
 </div>
 
-<!-- Full-Width
+<!-- About
+=============================-->
+
+<!-- Coursework
+=============================-->    
+
+<div id="coursework" class="item subpage fullwidth">
+    <div class="content">
+        <div class="content_overlay_fullwidth"></div>
+    <div class="content_inner">
+        <div class="row contentscroll">
+            <div class="container">
+            <div class="col-md-12 content_text">
+                <div class="clearfix" >
+                    <h1>Coursework</h1>
+                    <div class="tags">These are all the classes I've taken in College and Grad School.</div>
+                <div class="row clearfix pad_top40">
+
+                    <canvas id="cvs" width="1000" height="1000"></canvas>
+                </div>      
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Coursework
 =============================-->
 
 
@@ -1234,16 +1264,16 @@
                 <div class="col-md-6 empty">&nbsp;</div>
             <div class="col-md-6 content_text">
                 <div id="contactforms">
-                	<h1>Drop Me A Line</h1>
-					<div class="tags">If you’re considering hiring me or would like a free project price quote, please fill the form below Thank you!
+                    <h1>Drop Me A Line</h1>
+                    <div class="tags">If you’re considering hiring me or would like a free project price quote, please fill the form below Thank you!
 </div>
                 <!--Form Starts-->
                 <form id="contact_form" class="cont_form pad_top13" action="contact_form.php" method="post">
-                	
+                    
                 <div class="clearfix cont_form pad_top30"> 
-				
-					<div class="subtitle">Enter Your Contact Details</div>
-                	<!--Input 1-->
+                
+                    <div class="subtitle">Enter Your Contact Details</div>
+                    <!--Input 1-->
                     <input type="text" name="name" class="validate['required'] textbox1" placeholder="* Name : "
                     onfocus="this.placeholder = ''" onBlur="this.placeholder = '* Name :'" />
                     <!--Input 1-->
@@ -1258,6 +1288,10 @@
                     placeholder="* Message : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Message :'"></textarea>
                     <!-- // Input 3-->
                     
+            <!--ReCAPTCHA-->
+            <div class="g-recaptcha" data-sitekey="6LdZ6-gSAAAAAG6hPyz23M4XPTzHUkY4Cq6ydpZC"></div>
+            <!-- // ReCAPTCHA-->
+
                     <!--Button-->
                     <button id="contactsubmitBtn" type="submit" class="btn btn-3 btn-3e">Submit</button>
                     <!-- // Button-->
@@ -1310,6 +1344,15 @@
 		</a>
 	</div>
     <!-- // Spmenu 3-->
+
+    <!--Spmenu 4-->
+    <div id="spmenu4" style="display:none;">   <button class="spmenu spmenu4"  onclick="modalshow('#video2')"  data-toggle="modal" data-target="#lightbox3">
+            <span><i class="fa fa-desktop"></i></span>
+            <span class="sptext">Video Resume</span>
+        </button>
+    </div>
+    <!-- // Spmenu 4-->
+
     </div>
 </div>
 
@@ -1318,18 +1361,33 @@
 
 
 <div id="video1" >
-	<div id="lightbox2" class="lightbox2 modal fade in" tabindex="-1" role="dialog" aria-labelledby="video1" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<button type="button" class="close" data-dismiss="modal" ><img src="assets/img/close.png" alt=" "></button>
-				<div class="modal-body">
-				<div class="video_containers">
-                   <iframe width="500" height="281" src="http://www.youtube.com/embed/VBOKFAnVjas?autoplay=0" frameborder="0" allowfullscreen="" ></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
+    <div id="lightbox2" class="lightbox2 modal fade in" tabindex="-1" role="dialog" aria-labelledby="video1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" ><img src="assets/img/close.png" alt=" "></button>
+                <div class="modal-body">
+                    <div class="video_containers">
+                        <iframe width="500" height="281" src="http://www.youtube.com/embed/VBOKFAnVjas?autoplay=0" frameborder="0" allowfullscreen="" ></iframe>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="video2" >
+    <div id="lightbox3" class="lightbox2 modal fade in" tabindex="-1" role="dialog" aria-labelledby="video2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" ><img src="assets/img/close.png" alt=" "></button>
+                <div class="modal-body">
+                    <div class="video_containers">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/092NbybLsOI?autoplay=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 </div>

@@ -1,18 +1,28 @@
 <?php
 require 'vendor/autoload.php';
+$secret = getenv('RECAPTCHA_SECRET');
+$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+$resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+if ($resp->isSuccess()) {
+    sendEmail();
+    print "Email sent successfully.";
+} else {
+    foreach ($resp->getErrorCodes() as $code) {
+    	echo '<tt>' . $code . '</tt> ';
+    }
+}
 
-$to = "cole.ian.diamond@gmail.com";
-$from = $_POST['email'];
-$subject = "[colediamond.com] Message from {$_POST['name']} ({$from})";
-$text = $_POST['message'];
 
-$sendgrid = new SendGrid(getenv('SENDGRID_USERNAME'), getenv('SENDGRID_PASSWORD'));
+function sendEmail() {
+	$sendgrid = new SendGrid(getenv('SENDGRID_USERNAME'), getenv('SENDGRID_PASSWORD'));
 
-$message = new SendGrid\Email();
-$message->addTo($to)->
-          setFrom($from)->
-          setSubject($subject)->
-          setText($text)->
-          setHtml($text);
-$response = $sendgrid->send($message);
+	$message = new SendGrid\Email();
+	$message->addTo($to)->
+		  setFrom($from)->
+		  setSubject($subject)->
+		  setText($text)->
+		  setHtml($text);
+	$response = $sendgrid->send($message);
+	return True;
+}
 ?>
