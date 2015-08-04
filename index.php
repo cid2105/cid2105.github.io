@@ -1293,22 +1293,12 @@
                     <textarea name="message" class="validate['required'] messagebox1"
                     placeholder="* Message : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Message :'"></textarea>
                     <!-- // Input 3-->
-<<<<<<< HEAD
-                    
-            <!--ReCAPTCHA-->
-            <div class="g-recaptcha" data-sitekey="6LdZ6-gSAAAAAG6hPyz23M4XPTzHUkY4Cq6ydpZC"></div>
-            <!-- // ReCAPTCHA-->
-
-                    <!--Button-->
-=======
  		    
 		    <!--    ReCAPTCHA-->                   
                     <div class="g-recaptcha" data-sitekey="6LdZ6-gSAAAAAG6hPyz23M4XPTzHUkY4Cq6ydpZC"></div>
 		    <!-- // ReCAPTCHA-->
-		    
                     <br/><br/><br/>
 		    <!--Button-->
->>>>>>> f4d5b9025b1c8fc3857beaf6b190f316eea9ff05
                     <button id="contactsubmitBtn" type="submit" class="btn btn-3 btn-3e">Submit</button>
                     <!-- // Button-->
                 </div>
