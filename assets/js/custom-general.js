@@ -303,7 +303,7 @@ window.location.href = name;
 						// do other stuff for a valid form
 						$.post(email_file, $("#contact_form").serialize(), function(data) { // action file is here 
 							if(data == "Email sent successfully."){
-								$('#contact_form_response').html("<hr/><b>" + data + "</b>");
+								$('#contact_form_response').html("<hr/><b style=\"color:red;\">" + data + "</b>");
 							}
 							else {
 								grecaptcha.reset();
