@@ -12,7 +12,6 @@ if ($resp->isSuccess()) {
     }
 }
 
-
 function sendEmail() {
 	$sendgrid = new SendGrid(getenv('SENDGRID_USERNAME'), getenv('SENDGRID_PASSWORD'));
 
@@ -26,3 +25,4 @@ function sendEmail() {
 	return True;
 }
 ?>
+

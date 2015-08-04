@@ -300,6 +300,8 @@ window.location.href = name;
 		},
 		submitHandler: function(form) {
 						var email_file = $("#contact_form").attr("action");
+
+
 						// do other stuff for a valid form
 						$.post(email_file, $("#contact_form").serialize(), function(data) { // action file is here 
 							if(data == "Email sent successfully."){
