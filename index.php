@@ -60,13 +60,8 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 <script src="assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-<<<<<<< HEAD
 <script type="text/javascript" src="assets/js/coursework.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-=======
-<script src='https://www.google.com/recaptcha/api.js'></script>
-
->>>>>>> f4d5b9025b1c8fc3857beaf6b190f316eea9ff05
 </head>
 <body>
 
@@ -1352,11 +1347,7 @@
     <!-- // Spmenu 3-->
 
     <!--Spmenu 4-->
-<<<<<<< HEAD
-    <div id="spmenu4" style="display:none;">   <button class="spmenu spmenu4"  onclick="modalshow('#video2')"  data-toggle="modal" data-target="#lightbox3">
-=======
     <div id="spmenu4" style="visibility:hidden;">   <button class="spmenu spmenu4"  onclick="modalshow('#video2')"  data-toggle="modal" data-target="#lightbox3">
->>>>>>> f4d5b9025b1c8fc3857beaf6b190f316eea9ff05
             <span><i class="fa fa-desktop"></i></span>
             <span class="sptext">Video Resume</span>
         </button>
