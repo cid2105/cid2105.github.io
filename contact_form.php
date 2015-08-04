@@ -4,7 +4,7 @@ $secret = getenv('RECAPTCHA_SECRET');
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 if ($resp->isSuccess()) {
-    sendEmail();
+    sendEmail("cole@colediamond.com", $_POST['from'], "Email from colediamond.com", $_POST['message']);
     print "Email sent successfully.";
 } else {
     foreach ($resp->getErrorCodes() as $code) {
@@ -12,9 +12,9 @@ if ($resp->isSuccess()) {
     }
 }
 
-function sendEmail() {
+function sendEmail($to, $from, $subject, $text) {
 	$sendgrid = new SendGrid(getenv('SENDGRID_USERNAME'), getenv('SENDGRID_PASSWORD'));
-
+	$to = "cole@colediamond.com";
 	$message = new SendGrid\Email();
 	$message->addTo($to)->
 		  setFrom($from)->
