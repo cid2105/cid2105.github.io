@@ -616,10 +616,12 @@
         </a>
     </li>
     <li class="mix hardware mix_all">
-     <a href="#project_title4" data-toggle="modal"> 
-        <img src="assets/img/gallery/weight_alarm2.png" height="250" width="250"  alt="weight alarm clock">
-    </a>
+ <a href="#project_title4" data-toggle="modal"> 
+    <img src="assets/img/gallery/robot_hand.png" height="250" width="250" alt="Robot Hand Avatar">
+</a>
 </li>
+
+
 <li class="mix hardware mix_all">
  <a href="#project_title5" data-toggle="modal"> 
     <img src="assets/img/gallery/speech_to_text.png" height="250" width="250"  alt="google glass clone">
@@ -627,19 +629,43 @@
 </li>
 <li class="mix software mix_all">
  <a href="#project_title6" data-toggle="modal"> 
-    <img src="assets/img/gallery/greek_gavel.png" height="250" width="250" alt="Greek Gavel">
+    <img src="assets/img/gallery/MembraneDetection.png" height="250" width="250" alt="Membrane Detection">
 </a>
 </li>
 <li class="mix software mix_all">
  <a href="#project_title7" data-toggle="modal"> 
-    <img src="assets/img/gallery/matchume.png" height="250" width="250" alt="matchu.me">
+    <img src="assets/img/gallery/LDA.png" height="250" width="250" alt="LDA">
 </a>
 </li>
+
 <li class="mix software mix_all">
  <a href="#project_title8" data-toggle="modal"> 
     <img src="assets/img/gallery/stakd.png" height="250" width="250" alt="Stakd">
 </a>
 </li>
+
+<li class="mix software mix_all">
+ <a href="#project_title9" data-toggle="modal"> 
+    <img src="assets/img/gallery/greek_gavel.png" height="250" width="250" alt="Greek Gavel">
+</a>
+</li>
+
+
+<li class="mix software mix_all">
+ <a href="#project_title10" data-toggle="modal"> 
+    <img src="assets/img/gallery/matchume.png" height="250" width="250" alt="matchu.me">
+</a>
+</li>
+
+
+
+    <li class="mix hardware mix_all">
+     <a href="#project_title11" data-toggle="modal"> 
+        <img src="assets/img/gallery/weight_alarm2.png" height="250" width="250"  alt="weight alarm clock">
+    </a>
+</li>
+
+
 </ul>
 <!-- End Portfolio Grid -->
 </section>
@@ -813,28 +839,31 @@
                             <!-- // Project navigation -->
                             
                             <!-- Project Heading -->
-                            <div class="clearfix col-lg-12">
-                                <div class="port-title clearfix">
-                                    <h1>Pressure-sensitive Alarm Clock</h1>
-                                </div>
-                                
-                                
-                            </div>
-                            <!-- // Project Heading -->
-                            <div class="pad_top30">
-                                <div class="col-md-6 mar_bot30">
-                                    <img src="assets/img/gallery/weight_alarm2.png" alt="" class="img-responsive img_width"/>                            </div>
-                                    <div class="col-md-6 project_content">
-                                        <h5>Project Description</h5>
-                                        <p class="pad_top13">
-                                           As a heavy sleeper, I seem to be immune to traditional alarm clocks. It seems like it is only until I stand up out of bed that I can shake my sleep drunken state. Consequently, I set out to create a Cole-proof alarm-clock, which could only be disabled once I left my bed and stood up. The solution was quite simple: merely adding a arduino-controlled buzzer that can only be disabled when sufficent pressure was applied to a weight-sensitive element. The user can prespecify a wake-up time, just like a normal alarm clock. Now, if only I can remember to set the alarm every night!
-                                       </p>    
-                                       <div class="clearfix pad_top10">
-                                        <a href="http://www.youtube.com/watch?v=MqkalxyNxhw" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                                <div class="clearfix col-lg-12">
+                                    <div class="port-title clearfix">
+                                        <h1>Robot Hand Avatar</h1>
                                     </div>
+                                    
+                                    
+                                </div>
+                                <!-- // Project Heading -->
+                                <div class="pad_top30">
+                                    <div class="col-md-6 mar_bot30">
+                                        <img src="assets/img/gallery/robot_hand.png" alt="" class="img-responsive img_width"/>                            </div>
+                                        <div class="col-md-6 project_content">
+                                            <h5>Project Description</h5>
+                                            <p class="pad_top13">
+                                                A motor-assisted mechanical hand mimics the movements of the glove wearer in real-time through the use of flexion sensors and the arduino micro-controller.
+                                            </p>
 
-                                </div>   
-                            </div>
+
+                                            <div class="clearfix pad_top10">
+                                                <a href="https://www.youtube.com/watch?v=57D7xsMa4JQ" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demonstration</a>
+                                            </div>
+
+                                        </div>   
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     <!-- // Modal container -->
@@ -913,26 +942,27 @@
                             <!-- Project Heading -->
                             <div class="clearfix col-lg-12">
                                 <div class="port-title clearfix">
-                                    <h1>Greekgavel</h1>
+                                    <h1>Fast Algorithms for Membrane and Synapse Detection</h1>
                                 </div>
-                                
-                                
                             </div>
                             <!-- // Project Heading -->
                             <div class="pad_top30">
                                 <div class="col-md-6 mar_bot30">
-                                    <img src="assets/img/gallery/greek_gavel.png" alt="" class="img-responsive img_width"/>                            </div>
+                                    <img src="assets/img/gallery/MembraneDetection.png" alt="" class="img-responsive img_width"/>                            </div>
                                     <div class="col-md-6 project_content">
                                         <h5>Project Description</h5>
                                         <p class="pad_top13">
-                                           GreekGavel aimed to be a social network for fraternities, where members could pay their dues, coordinate social events,  and interface with other chapters within the greek community. Its main innovation was a tool to automatically port messages from the listserv to a clean, readable format simply by CC'ing listerv@greekgavel.com to all listserv communications. Of course, the conversation could be continued on the site, where threads and messages became instantly searchable. Since networking is an important aspect for greek-affiliated alumni, there was also an ability for members to upload resumes, and other employment information. Lastly, there was a utility to send a mass-text message to all members for pressing engagements.
+                                           A project in which we used deep learning to classify synapses in slices of a mouse brain.
+                                           We implemented a deep convolutional neural network in theano library for python to learn features which would enable us to classify pixels as synapse or non-synapse pixels.
                                        </p>
+
                                        <div class="clearfix pad_top10">
-                                        <a href="http://bit.ly/Uta26J" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                                        <a href="http://cid2105.github.io/AC297r_Website/" class="btn btn-3 btn-3e" target="_blank" projectlink>Project Website</a>
                                     </div>
 
                                 </div>   
                             </div>
+
                         </div>
                     </div>
                     <!-- // Modal container -->
@@ -962,22 +992,36 @@
                             <!-- Project Heading -->
                             <div class="clearfix col-lg-12">
                                 <div class="port-title clearfix">
-                                    <h1>Matchu.me</h1>
+                                    <h1>Collapsed Gibbs Sampler for LDA to Classify Books by Thematic Content </h1>
                                 </div>
+                                
+                                
                             </div>
                             <!-- // Project Heading -->
                             <div class="pad_top30">
                                 <div class="col-md-6 mar_bot30">
-                                    <img src="assets/img/gallery/matchume.png" alt="" class="img-responsive img_width"/>                            </div>
+                                    <img src="assets/img/gallery/LDA.png" alt="" class="img-responsive img_width"/>                            </div>
                                     <div class="col-md-6 project_content">
                                         <h5>Project Description</h5>
                                         <p class="pad_top13">
-                                           MatchU.Me was Tinder before Tinder. Deemed "Columbia's digital wingman", MatchU.Me connected secret admirers. The hope was to remove the anxiety out of dating, and unrequited love. Only when both parties expressed a mutual interest was the match revealed. For the bold, there was a tool to bypass the traditional matching process to explicity indicate interest. Additionally, there was a utility to allow one-way matches to communicate with their crushes, through a secret-admirers channel. If the crush recipient sent back a 'reveal request' to the anonymous sweetheart, and he/she accepted, then the anonymous-lover's identity is revealed. Additionally, there was a most-matchable feed to showcase the most desired users in order to add to the gamification aspect. Most importantly, MatchU.Me was exclusive, and solely intended for the Columbia community. 
-                                       </p>
+                                            We (Cole Diamond, Wei Dai and Raphael Pestourie) used Gibbs sampling to sample from the posterior 
+                                            of the distribution described by the Latent Dirichlet Allocation to extract thematic content from 
+                                            ten classic novels (Frankenstein, Moby Dick, etc). We train on half of the pages, and perform inference
+                                            on the remainder. We use nearest neighbor on the queried topic distibution to query the closest match. 
+                                            We were able to correctly label all of our test data with the correct title.
+                                        </p>
 
-                                   </div>   
-                               </div>
-                           </div>
+
+                                        <div class="clearfix pad_top10">
+                                            <a href="http://am207project.weebly.com/" class="btn btn-3 btn-3e" target="_blank" projectlink>Screencast</a><br/><br/>
+                                            <a href="http://am207project.weebly.com/" class="btn btn-3 btn-3e" target="_blank" projectlink>Project Website</a><br/><br/>
+                                            <a href="http://cid2105.github.io/AM207_FinalProject/" class="btn btn-3 btn-3e" target="_blank" projectlink>iPython Step-by-step Notebook</a>
+                                        </div>
+
+                                    </div>   
+                                </div>
+                            </div>
+                           
                        </div>
                        <!-- // Modal container -->
                    </div>
@@ -998,7 +1042,7 @@
                                 <div class="project_navigation">
                                     <div class="navigation_button"><a href="#project_title7" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
                                     <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
-                                    <div class="navigation_button"><a href="#project_title1" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
+                                    <div class="navigation_button"><a href="#project_title9" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
                                 </div>
                             </div>
                             <!-- // Project navigation -->
@@ -1018,7 +1062,7 @@
                                     <div class="col-md-6 project_content">
                                         <h5>Project Description</h5>
                                         <p class="pad_top13">
-                                            Stakd is essentially an interactive buzzfeed. Users collaborate to build top-ten lists. For example, one might create a stack to determine the Beatles' top ten hits of all time. The results are aggregated across all users and the lists present the responses in order of frequency. Stakd normalized responses using Natural Language Processing, and had a utility to quickly "remix" stacks to personalize items. 
+                                            Stakd is a top ten list of everything. Users collaborate to build top-ten lists. For example, one might create a stack to determine the Beatles' top ten hits of all time. The results are aggregated across all users and the lists present the responses in order of frequency. Stakd normalized responses using Natural Language Processing, and had a utility to quickly "remix" stacks to personalize items. 
                                         </p>
 
                                     </div>   
@@ -1031,8 +1075,156 @@
                 </div>
                 <!-- // Project Title8 modal -->
 
+
+            <!-- Project Title9 modal 
+            ========================================================================================================================================-->
+            <div id="project_title9" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title9" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
+                            <div class="clearfix col-lg-12">
+                                <div class="project_navigation">
+                                    <div class="navigation_button"><a href="#project_title8" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
+                                    <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
+                                    <div class="navigation_button"><a href="#project_title10" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
+                                </div>
+                            </div>
+                            <!-- // Project navigation -->
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Greekgavel</h1>
+                                </div>
+                                
+                                
+                            </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                                <div class="col-md-6 mar_bot30">
+                                    <img src="assets/img/gallery/greek_gavel.png" alt="" class="img-responsive img_width"/>                            </div>
+                                    <div class="col-md-6 project_content">
+                                        <h5>Project Description</h5>
+                                        <p class="pad_top13">
+                                           GreekGavel aimed to be a social network for fraternities, where members could pay their dues, coordinate social events,  and interface with other chapters within the greek community. Its main innovation was a tool to automatically port messages from the listserv to a clean, readable format simply by CC'ing listerv@greekgavel.com to all listserv communications. Of course, the conversation could be continued on the site, where threads and messages became instantly searchable. Since networking is an important aspect for greek-affiliated alumni, there was also an ability for members to upload resumes, and other employment information. Lastly, there was a utility to send a mass-text message to all members for pressing engagements.
+                                       </p>
+                                       <div class="clearfix pad_top10">
+                                        <a href="http://bit.ly/Uta26J" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                                    </div>
+
+                                </div>   
+                            </div>
+                    
+                        </div>
+                    </div>
+                    <!-- // Modal container -->
+                </div>
+                <!-- // Modal body start -->
             </div>
-            <!-- Portfolio CONTENT -->
+            <!-- // Project Title9 modal -->
+
+
+            <!-- Project Title10 modal 
+            ========================================================================================================================================-->
+            <div id="project_title10" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title10" aria-hidden="true">
+                <!-- Modal body start -->
+                <div class="modal-body color_background">
+                    <!-- Modal container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- Project navigation -->
+                            <div class="clearfix col-lg-12">
+                                <div class="project_navigation">
+                                    <div class="navigation_button"><a href="#project_title9" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
+                                    <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
+                                    <div class="navigation_button"><a href="#project_title11" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
+                                </div>
+                            </div>
+                            <!-- // Project navigation -->
+                            
+                            <!-- Project Heading -->
+                            <div class="clearfix col-lg-12">
+                                <div class="port-title clearfix">
+                                    <h1>Matchu.me</h1>
+                                </div>
+                            </div>
+                            <!-- // Project Heading -->
+                            <div class="pad_top30">
+                                <div class="col-md-6 mar_bot30">
+                                    <img src="assets/img/gallery/matchume.png" alt="" class="img-responsive img_width"/>                            </div>
+                                    <div class="col-md-6 project_content">
+                                        <h5>Project Description</h5>
+                                        <p class="pad_top13">
+                                         MatchU.Me was Tinder before Tinder. Deemed "Columbia's digital wingman", MatchU.Me connected secret admirers. The hope was to remove the anxiety out of dating, and unrequited love. Only when both parties expressed a mutual interest was the match revealed. For the bold, there was a tool to bypass the traditional matching process to explicity indicate interest. Additionally, there was a utility to allow one-way matches to communicate with their crushes, through a secret-admirers channel. If the crush recipient sent back a 'reveal request' to the anonymous sweetheart, and he/she accepted, then the anonymous-lover's identity is revealed. Additionally, there was a most-matchable feed to showcase the most desired users in order to add to the gamification aspect. Most importantly, MatchU.Me was exclusive, and solely intended for the Columbia community. 
+                                     </p>
+
+                                 </div>   
+                             </div>
+                         </div>
+
+                        </div>
+                        <!-- // Modal container -->
+                    </div>
+                    <!-- // Modal body start -->
+                </div>
+                <!-- // Project Title10 modal -->
+
+                 <!-- Project Title11 modal 
+                 ========================================================================================================================================-->
+                 <div id="project_title11" class="modal contentscroll fade white_bg" tabindex="-1" role="dialog" aria-labelledby="project_title11" aria-hidden="true">
+                    <!-- Modal body start -->
+                    <div class="modal-body color_background">
+                        <!-- Modal container -->
+                        <div class="container">
+                            <div class="row">
+                                <!-- Project navigation -->
+                                <div class="clearfix col-lg-12">
+                                    <div class="project_navigation">
+                                        <div class="navigation_button"><a href="#project_title10" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-left"></i></a></div>
+                                        <div class="navigation_button1"><a href="#" data-dismiss="modal"><i class="fa fa-times"></i></a></div>
+                                        <div class="navigation_button"><a href="#project_title1" role="button" data-toggle="modal" data-dismiss="modal" aria-hidden="true"><i class="fa fa-angle-right"></i></a></div>
+                                    </div>
+                                </div>
+                                <!-- // Project navigation -->
+
+                                <!-- Project Heading -->
+                                <div class="clearfix col-lg-12">
+                                    <div class="port-title clearfix">
+                                        <h1>Pressure-sensitive Alarm Clock</h1>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <!-- // Project Heading -->
+                                <div class="pad_top30">
+                                    <div class="col-md-6 mar_bot30">
+                                        <img src="assets/img/gallery/weight_alarm2.png" alt="" class="img-responsive img_width"/>                            </div>
+                                        <div class="col-md-6 project_content">
+                                            <h5>Project Description</h5>
+                                            <p class="pad_top13">
+                                             As a heavy sleeper, I seem to be immune to traditional alarm clocks. It seems like it is only until I stand up out of bed that I can shake my sleep drunken state. Consequently, I set out to create a Cole-proof alarm-clock, which could only be disabled once I left my bed and stood up. The solution was quite simple: merely adding a arduino-controlled buzzer that can only be disabled when sufficent pressure was applied to a weight-sensitive element. The user can prespecify a wake-up time, just like a normal alarm clock. Now, if only I can remember to set the alarm every night!
+                                         </p>    
+                                         <div class="clearfix pad_top10">
+                                            <a href="http://www.youtube.com/watch?v=MqkalxyNxhw" class="btn btn-3 btn-3e" target="_blank" projectlink>Video Demo</a>
+                                        </div>
+
+                                    </div>   
+                                </div>
+
+                            </div>
+                            <!-- // Modal container -->
+                        </div>
+                        <!-- // Modal body start -->
+                    </div>
+                    <!-- // Project Title11 modal -->
+
+
+
+                </div>
+                <!-- Portfolio CONTENT -->
 
 <!-- Portfolio Modal
     =============================-->
@@ -1483,36 +1675,36 @@
 <script type="text/javascript" src="assets/js/typed-custom.js"></script>
 <script type="text/javascript" src="assets/js/toastr.min.js"></script>
 <script>
-toastr.options = {
-  "closeButton": false,
-  "debug": false,
-  "newestOnTop": false,
-  "progressBar": false,
-  "positionClass": "toast-top-right",
-  "preventDuplicates": false,
-  "onclick": null,
-  "showDuration": "300",
-  "hideDuration": "1000",
-  "timeOut": "5000",
-  "extendedTimeOut": "1000",
-  "showEasing": "swing",
-  "hideEasing": "linear",
-  "showMethod": "fadeIn",
-  "hideMethod": "fadeOut"
-}
-</script
-<!-- Custom Scripts Ends-->
+    toastr.options = {
+      "closeButton": false,
+      "debug": false,
+      "newestOnTop": false,
+      "progressBar": false,
+      "positionClass": "toast-top-right",
+      "preventDuplicates": false,
+      "onclick": null,
+      "showDuration": "300",
+      "hideDuration": "1000",
+      "timeOut": "5000",
+      "extendedTimeOut": "1000",
+      "showEasing": "swing",
+      "hideEasing": "linear",
+      "showMethod": "fadeIn",
+      "hideMethod": "fadeOut"
+  }
+  </script
+  <!-- Custom Scripts Ends-->
 
 
-<!--IE9 Hack Code For Gradient Color-->
+  <!--IE9 Hack Code For Gradient Color-->
 
-<!--[if gte IE 9]>
+  <!--[if gte IE 9]>
   <style type="text/css">
     .pattern_bg {
        filter: none;
-    }
-  </style>
-  <![endif]-->
+   }
+</style>
+<![endif]-->
 
 </body>
 
