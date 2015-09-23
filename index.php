@@ -1532,7 +1532,7 @@
 
  <!--Spmenu 3-->
  <div id="spmenu3">
-    <a href="resume.pdf" class="spmenu spmenu3 link">
+    <a href="ColeDiamondResume.pdf" class="spmenu spmenu3 link">
         <span><i class="fa fa-download down_icon"></i></span>
         <span class="sptext"><span>Resume</span>Download</span>
     </a>
