@@ -1288,7 +1288,7 @@
                             </div>		
                             <!--Buttons-->									
                             <div class="clearfix">
-                                <a href="resume.pdf" class="btn btn-3 btn-3e link"><i class="fa fa-download down_icon"></i>Download Resume</a>			                            </div>
+                                <a href="ColeDiamondResume.pdf" class="btn btn-3 btn-3e link"><i class="fa fa-download down_icon"></i>Download Resume</a>			                            </div>
                                 <!--Buttons-->
                             </div>
                         </div>
